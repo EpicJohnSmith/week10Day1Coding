@@ -216,7 +216,16 @@ public class LinkedList<T extends Comparable<T>> // This is going to be a LONG a
         return head == null;
     }
     
-    // AI will now sort this through the bubble sorting algorithm
+    // AI will now sort this through the bubble sorting algorithm:
+    
+    // Sorts the linked list using Bubble Sort algorithm
+    // This implementation uses Bubble Sort which works as follows:
+    //      1. Compare adjacent nodes
+    //      2. Swap their data if they are in wrong order
+    //      3. Repeat the process for all nodes
+    //      4. After each pass, the largest element "bubbles" to the end
+    //      5. Continue until no more swaps are needed
+    
     public void sort()
     {
         // If list is empty or has only one element, it's already sorted
