@@ -2,6 +2,7 @@ package node;
 
 //Before we begin, I would like to say that this is a simple generic singly linked list.
 //This implementation will demonstrate core list operations through a manual sorting algorithm (Bubble Sort).
+//Operations will include insertion, deletion, searching, and sorting. At the end will have the test cases printed out.
 //That will be all, folks. Enjoy the show.
 
 public class LinkedList<T extends Comparable<T>> // This is going to be a LONG assignment
