@@ -277,12 +277,12 @@ public class LinkedList<T extends Comparable<T>> // This is going to be a LONG a
         // Create an instance of LinkedList with Integer type
         LinkedList<Integer> list = new LinkedList<>();
         
-        System.out.println("Test Case 1: Check if list is empty");
+        System.out.println("=== Test Case 1: Check if list is empty ===");
         System.out.println("Is list empty? " + list.isEmpty());
         System.out.println("List length: " + list.length());
         list.print();
         
-        System.out.println("Test Case 2: Append elements");
+        System.out.println("\n=== Test Case 2: Append elements ===");
         list.append(10);
         list.append(20);
         list.append(30);
@@ -291,36 +291,36 @@ public class LinkedList<T extends Comparable<T>> // This is going to be a LONG a
         list.print();
         System.out.println("List length: " + list.length());
         
-        System.out.println("Test Case 3: Prepend element");
+        System.out.println("\n=== Test Case 3: Prepend element ===");
         list.prepend(5);
         System.out.println("After prepending 5:");
         list.print();
         
-        System.out.println("Test Case 4: Insert after a target");
+        System.out.println("\n=== Test Case 4: Insert after a target ===");
         list.insertAfter(20, 25);
         System.out.println("After inserting 25 after 20:");
         list.print();
         
-        System.out.println("Test Case 5: Insert before a target");
+        System.out.println("\n=== Test Case 5: Insert before a target ===");
         list.insertBefore(10, 8);
         System.out.println("After inserting 8 before 10:");
         list.print();
         
-        System.out.println("Test Case 6: Search for elements");
+        System.out.println("\n=== Test Case 6: Search for elements ===");
         System.out.println("Search for 25: " + list.search(25));
         System.out.println("Search for 100: " + list.search(100));
         
-        System.out.println("Test Case 7: Delete an element");
+        System.out.println("\n=== Test Case 7: Delete an element ===");
         list.delete(25);
         System.out.println("After deleting 25:");
         list.print();
         
-        System.out.println("Test Case 8: Remove last element");
+        System.out.println("\n=== Test Case 8: Remove last element ===");
         list.remove();
         System.out.println("After removing last element:");
         list.print();
         
-        System.out.println("Test Case 9: Add unsorted elements and sort");
+        System.out.println("\n=== Test Case 9: Add unsorted elements and sort ===");
         list.append(15);
         list.append(3);
         list.append(35);
@@ -331,7 +331,7 @@ public class LinkedList<T extends Comparable<T>> // This is going to be a LONG a
         System.out.println("After sorting:");
         list.print();
         
-        System.out.println("Test Case 10: Test with strings");
+        System.out.println("\n=== Test Case 10: Test with strings ===");
         LinkedList<String> stringList = new LinkedList<>();
         stringList.append("apple");
         stringList.append("orange");
@@ -343,7 +343,7 @@ public class LinkedList<T extends Comparable<T>> // This is going to be a LONG a
         System.out.println("String list after sorting:");
         stringList.print();
         
-        System.out.println("Test Case 11: Delete from single element list");
+        System.out.println("\n=== Test Case 11: Delete from single element list ===");
         LinkedList<Integer> singleList = new LinkedList<>();
         singleList.append(100);
         System.out.println("Single element list:");
@@ -353,7 +353,7 @@ public class LinkedList<T extends Comparable<T>> // This is going to be a LONG a
         singleList.print();
         System.out.println("Is list empty? " + singleList.isEmpty());
         
-        System.out.println("Test Case 12: Multiple operations");
+        System.out.println("\n=== Test Case 12: Multiple operations ===");
         LinkedList<Integer> testList = new LinkedList<>();
         testList.append(50);
         testList.prepend(25);
